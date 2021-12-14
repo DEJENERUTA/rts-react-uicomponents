@@ -1,0 +1,19 @@
+.app-container {
+	width: 260px;
+	height: 260px;
+	background-color: blue;
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+	margin: 1.2rem;
+}
+.img-container {
+	float: right;
+	margin: 30px;
+}
+.mypic {
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
