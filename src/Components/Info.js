@@ -1,4 +1,4 @@
-import "./detail.css";
+import "./Detail.css";
 
 const Info = ({ text, title }) => {
 	return (
