@@ -1,7 +1,6 @@
 .app-container {
-	width: 360px;
-	height: 360px;
-
+	width: 2700px;
+	height: 272px;
 	border-radius: 4px;
 	color: #fff;
 	cursor: pointer;
@@ -16,4 +15,9 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.card1 {
+	width: 370px;
+	height: 441px;
+	border: 3px solid red;
 }

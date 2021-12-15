@@ -6,25 +6,25 @@ import "./index.css";
 ReactDOM.render(
 	<React.StrictMode>
 		<MainCard
-			color="blue"
+			color="#005AEE"
 			image="assets/uicomponent1.png"
 			title="ON-TIME DELIVERY"
 			infoText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit "
 		/>
 		<MainCard
-			color="red"
+			color="#FFA767"
 			image="assets/uicomponent2.png"
 			title="PARCELS"
 			infoText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit "
 		/>
 		<MainCard
-			color="green"
+			color="#0AACDC"
 			image="assets/uicomponent3.png"
 			title="QUALITY CHECK"
 			infoText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit "
 		/>
 		<MainCard
-			color="yellow"
+			color="#597AEF"
 			image="assets/uicomponent4.png"
 			title="CUSTOMER SERVICE"
 			infoText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit "
