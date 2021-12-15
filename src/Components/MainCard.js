@@ -1,13 +1,11 @@
 import "./Card.css";
+import ImageContainer from "./ImageContainer";
 import Info from "./Info";
 
-const MainCard = ({ infoText, title }) => {
+const MainCard = ({ color, image, infoText, title }) => {
 	return (
-		<div className="app-container" style={styles}>
-			<div className="img-container">
-				<img className="mypic" src="assets/uicomponent1.png" alt="mypic" />
-			</div>
-
+		<div className="app-container" style={{ backgroundColor: color }}>
+			<ImageContainer picture={image} />
 			<Info text={infoText} title={title} />
 		</div>
 	);
