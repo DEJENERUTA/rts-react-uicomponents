@@ -6,6 +6,8 @@ import "./index.css";
 ReactDOM.render(
 	<React.StrictMode>
 		<MainCard
+			profilePicture="dejene.png"
+			aboutTravelText="it's windy. The cool breaz of the ocean . it gives , a sense of beauty. in motion. All is flowing , rushing and tide-And I sit i wonder, dreaming beside"
 			color="#005AEE"
 			image="assets/uicomponent1.png"
 			title="ON-TIME DELIVERY"

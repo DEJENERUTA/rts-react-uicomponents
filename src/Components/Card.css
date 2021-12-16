@@ -1,5 +1,8 @@
+.main-container {
+	width: 1280px;
+}
 .app-container {
-	width: 2700px;
+	width: 270px;
 	height: 272px;
 	border-radius: 4px;
 	color: #fff;
@@ -12,12 +15,8 @@
 }
 .mypic {
 	width: 50px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
-.card1 {
-	width: 370px;
-	height: 441px;
-	border: 3px solid red;
+.app-container:hover {
+	transform: scale(1.01) translateY(0.2rem);
+	cursor: pointer;
 }

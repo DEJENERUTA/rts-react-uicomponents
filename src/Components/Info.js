@@ -3,8 +3,8 @@ import "./Detail.css";
 const Info = ({ text, title }) => {
 	return (
 		<div className="info-container">
-			<h2>{title}</h2>
-			<p>{text}</p>
+			<h2 className="card-title2">{title}</h2>
+			<p className="lorem-text">{text}</p>
 		</div>
 	);
 };
